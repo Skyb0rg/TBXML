@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name          = 'TBXML'
-  spec.version       = '1.6'
+  spec.version       = '1.5'
   spec.license       = { :type => 'MIT' }
   spec.homepage      = 'http://www.tbxml.co.uk'
   spec.authors       = { 'Tom Bradley' => 'tom@tbxml.co.uk' }
   spec.summary       = 'A fast XML parser.'
-  spec.source        = { :git => 'https://github.com/Skyb0rg/TBXML.git' }
+  spec.source        = { :git => 'https://github.com/Skyb0rg/TBXML.git', :tag => 'v1.5'  }
 
   spec.ios.deployment_target  = '12.0'
 
